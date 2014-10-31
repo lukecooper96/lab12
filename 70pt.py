@@ -27,6 +27,13 @@ class MyApp:
 		self.button3 = Button(self.myContainer1)
 		self.button3.configure(text="Test?", background="cyan")  
 		self.button3.grid(row=0,column=2)	  ### (3)
+		
+		self.button4 = Button(self.myContainer1)
+		self.button4.configure(text="Goodbye", background="orange")  
+		self.button4.grid(row=0,column=3)	  ### (4)
+		
+		
+	
 			
 	
 		
